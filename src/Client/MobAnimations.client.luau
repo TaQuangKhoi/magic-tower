@@ -1,3 +1,4 @@
+--disable
 local function animateMob(object)
 	local humanoid = object:WaitForChild("Humanoid")
 	local AnimationsFolder = object:WaitForChild("Animations")
