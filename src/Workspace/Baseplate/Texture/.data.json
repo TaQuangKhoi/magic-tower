@@ -1,3 +1,11 @@
 {
-  "className": "Texture"
+  "className": "Texture",
+  "properties": {
+    "Color3": [0, 0, 0],
+    "Face": "Top",
+    "StudsPerTileU": 8,
+    "StudsPerTileV": 8,
+    "Texture": "rbxassetid://6372755229",
+    "Transparency": 0.8
+  }
 }

@@ -1,3 +1,25 @@
 {
-  "className": "TextLabel"
+  "className": "TextLabel",
+  "properties": {
+    "BackgroundTransparency": 1,
+    "BorderColor3": [0.105882, 0.164705, 0.207843],
+    "FontFace": {
+      "family": "rbxasset://fonts/families/Arial.json",
+      "weight": "Regular",
+      "style": "Normal",
+      "cachedFaceId": null
+    },
+    "Position": {
+      "UDim2": [[0.0, 0], [0.0, 30]]
+    },
+    "Size": {
+      "UDim2": [[1.0, 0], [1.0, -70]]
+    },
+    "Text": "Defend the Roblox HQ!!! (P.S, every map has a secret coin...)",
+    "TextColor3": [1, 1, 1],
+    "TextSize": 18,
+    "TextWrapped": true,
+    "TextXAlignment": "Left",
+    "TextYAlignment": "Top"
+  }
 }

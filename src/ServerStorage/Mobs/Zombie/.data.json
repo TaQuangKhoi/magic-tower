@@ -1,3 +1,12 @@
 {
-  "className": "Model"
+  "className": "Model",
+  "properties": {
+    "Tags": ["SoldierEnemy", "ZombieFriend"],
+    "WorldPivotData": {
+      "OptionalCFrame": {
+        "position": [18.0, 4.5004396, 4.5],
+        "orientation": [[-1.0, 0.0, 0.0], [0.0, 1.0, 0.0], [0.0, 0.0, -1.0]]
+      }
+    }
+  }
 }

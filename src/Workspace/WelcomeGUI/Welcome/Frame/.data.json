@@ -1,3 +1,14 @@
 {
-  "className": "Frame"
+  "className": "Frame",
+  "properties": {
+    "BackgroundColor3": [0.30196, 0.30196, 0.30196],
+    "BorderColor3": [0.105882, 0.164705, 0.207843],
+    "Position": {
+      "UDim2": [[0.5, -200], [0.5, -75]]
+    },
+    "Size": {
+      "UDim2": [[0.0, 400], [0.0, 150]]
+    },
+    "Style": "RobloxRound"
+  }
 }

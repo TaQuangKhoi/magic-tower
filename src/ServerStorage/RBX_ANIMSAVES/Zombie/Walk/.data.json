@@ -1,3 +1,8 @@
 {
-  "className": "KeyframeSequence"
+  "className": "KeyframeSequence",
+  "properties": {
+    "Loop": false,
+    "Priority": "Core",
+    "Tags": ["1721920766"]
+  }
 }

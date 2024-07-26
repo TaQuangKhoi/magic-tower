@@ -1,3 +1,12 @@
 {
-  "className": "Part"
+  "className": "Part",
+  "properties": {
+    "Anchored": true,
+    "CFrame": [9.423742, 8.67616, -59.999996, 0, 0, 0.999999, 0, 0.999999, 0, -1, 0, 0],
+    "Color": {
+      "Color3uint8": [99, 95, 98]
+    },
+    "Material": "Slate",
+    "Size": [72.818092, 13.329414, 2.46841]
+  }
 }

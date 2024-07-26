@@ -1,3 +1,14 @@
 {
-  "className": "Part"
+  "className": "Part",
+  "properties": {
+    "Anchored": true,
+    "BottomSurface": "Smooth",
+    "CFrame": [3.499999, 2.5, 31, 1, 0, 0, 0, 1, 0, 0, 0, 1],
+    "Color": {
+      "Color3uint8": [93, 93, 93]
+    },
+    "Material": "Pavement",
+    "Size": [47, 1, 4],
+    "TopSurface": "Smooth"
+  }
 }

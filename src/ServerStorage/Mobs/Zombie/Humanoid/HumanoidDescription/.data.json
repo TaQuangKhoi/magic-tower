@@ -1,3 +1,6 @@
 {
-  "className": "HumanoidDescription"
+  "className": "HumanoidDescription",
+  "properties": {
+    "WalkAnimation": 18650540917
+  }
 }

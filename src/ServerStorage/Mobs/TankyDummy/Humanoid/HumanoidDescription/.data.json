@@ -1,3 +1,13 @@
 {
-  "className": "HumanoidDescription"
+  "className": "HumanoidDescription",
+  "properties": {
+    "BodyTypeScale": 0,
+    "HeadColor": [0.639215, 0.635294, 0.647058],
+    "LeftArmColor": [0.639215, 0.635294, 0.647058],
+    "LeftLegColor": [0.639215, 0.635294, 0.647058],
+    "ProportionScale": 0,
+    "RightArmColor": [0.639215, 0.635294, 0.647058],
+    "RightLegColor": [0.639215, 0.635294, 0.647058],
+    "TorsoColor": [0.388235, 0.372549, 0.384313]
+  }
 }

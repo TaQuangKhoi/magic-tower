@@ -1,3 +1,8 @@
 {
-  "className": "Humanoid"
+  "className": "Humanoid",
+  "properties": {
+    "DisplayName": "Zombie",
+    "MaxHealth": 10,
+    "WalkSpeed": 3.299999
+  }
 }

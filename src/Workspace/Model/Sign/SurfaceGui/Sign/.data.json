@@ -1,3 +1,23 @@
 {
-  "className": "TextLabel"
+  "className": "TextLabel",
+  "properties": {
+    "BackgroundColor3": [1, 1, 1],
+    "BackgroundTransparency": 1,
+    "BorderColor3": [0.105882, 0.164705, 0.207843],
+    "FontFace": {
+      "family": "rbxasset://fonts/families/SourceSansPro.json",
+      "weight": "Bold",
+      "style": "Normal",
+      "cachedFaceId": null
+    },
+    "Size": {
+      "UDim2": [[1.0, 0], [1.0, 0]]
+    },
+    "Text": "Need to kill Entities? Call 930-193-6921 or visit entitykiller.global",
+    "TextColor3": [1, 1, 1],
+    "TextScaled": true,
+    "TextSize": 48,
+    "TextStrokeTransparency": 0,
+    "TextWrapped": true
+  }
 }

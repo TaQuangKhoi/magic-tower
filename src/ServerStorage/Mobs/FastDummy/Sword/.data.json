@@ -1,3 +1,8 @@
 {
-  "className": "Part"
+  "className": "Part",
+  "properties": {
+    "BottomSurface": "Smooth",
+    "Size": [4, 1, 2],
+    "TopSurface": "Smooth"
+  }
 }

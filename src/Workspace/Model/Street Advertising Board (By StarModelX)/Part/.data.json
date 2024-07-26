@@ -1,3 +1,14 @@
 {
-  "className": "Part"
+  "className": "Part",
+  "properties": {
+    "Anchored": true,
+    "BottomSurface": "Smooth",
+    "CFrame": [-54.346252, 42.484024, -0.813264, -1, 0, 0, 0, 1, 0, 0, 0, -1],
+    "Color": {
+      "Color3uint8": [17, 17, 17]
+    },
+    "Material": "DiamondPlate",
+    "Size": [3.280922, 0.22586, 0.499265],
+    "TopSurface": "Smooth"
+  }
 }

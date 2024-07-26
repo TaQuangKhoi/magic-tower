@@ -1,3 +1,20 @@
 {
-  "className": "Part"
+  "className": "Part",
+  "properties": {
+    "BottomSurface": "Smooth",
+    "CFrame": [-21.000001, 3.000439, 14.5, -0.999999, 0, 0, 0, 1, 0, 0, 0, -1],
+    "CanCollide": false,
+    "CanTouch": false,
+    "CollisionGroup": "Dummy",
+    "CollisionGroupId": -1,
+    "EnableFluidForces": false,
+    "FormFactor": "Symmetric",
+    "LeftParamA": 0,
+    "LeftParamB": 0,
+    "RightParamA": 0,
+    "RightParamB": 0,
+    "Size": [2, 2, 1],
+    "TopSurface": "Smooth",
+    "Transparency": 1
+  }
 }

@@ -1,3 +1,7 @@
 {
-  "className": "Decal"
+  "className": "Decal",
+  "properties": {
+    "Face": "Top",
+    "Texture": "rbxasset://textures/SpawnLocation.png"
+  }
 }

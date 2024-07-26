@@ -1,3 +1,10 @@
 {
-  "className": "TrussPart"
+  "className": "TrussPart",
+  "properties": {
+    "Anchored": true,
+    "BottomSurface": "Smooth",
+    "CFrame": [-5.635017, 47.500083, 248.935394, 1, 0, 0, 0, 1, 0, 0, 0, 1],
+    "Size": [2, 91, 2],
+    "TopSurface": "Smooth"
+  }
 }

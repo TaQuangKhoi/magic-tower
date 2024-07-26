@@ -1,3 +1,16 @@
 {
-  "className": "Part"
+  "className": "Part",
+  "properties": {
+    "Anchored": true,
+    "BottomSurface": "Smooth",
+    "CFrame": [25, 7.500378, -14.000007, 1, 0, 0, 0, 1, 0, 0, 0, 1],
+    "CanCollide": false,
+    "Color": {
+      "Color3uint8": [0, 255, 0]
+    },
+    "Material": "Pebble",
+    "Size": [4, 9, 4],
+    "TopSurface": "Smooth",
+    "Transparency": 0.75
+  }
 }

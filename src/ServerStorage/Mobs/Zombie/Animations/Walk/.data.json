@@ -1,3 +1,6 @@
 {
-  "className": "Animation"
+  "className": "Animation",
+  "properties": {
+    "AnimationId": "http://www.roblox.com/asset/?id=183294396"
+  }
 }

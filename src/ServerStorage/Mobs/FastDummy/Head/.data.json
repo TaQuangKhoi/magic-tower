@@ -1,3 +1,17 @@
 {
-  "className": "Part"
+  "className": "Part",
+  "properties": {
+    "CFrame": [-21.000001, 4.500439, 14.5, -0.999999, 0, 0, 0, 1, 0, 0, 0, -1],
+    "CanCollide": false,
+    "CanTouch": false,
+    "CollisionGroup": "Dummy",
+    "CollisionGroupId": -1,
+    "Color": {
+      "Color3uint8": [255, 255, 0]
+    },
+    "EnableFluidForces": false,
+    "FormFactor": "Symmetric",
+    "Size": [2, 1, 1],
+    "TopSurface": "Smooth"
+  }
 }

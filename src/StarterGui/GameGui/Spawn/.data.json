@@ -1,3 +1,25 @@
 {
-  "className": "TextButton"
+  "className": "TextButton",
+  "properties": {
+    "BackgroundColor3": [1, 1, 1],
+    "BorderColor3": [0, 0, 0],
+    "BorderSizePixel": 0,
+    "FontFace": {
+      "family": "rbxasset://fonts/families/SourceSansPro.json",
+      "weight": "Regular",
+      "style": "Normal",
+      "cachedFaceId": null
+    },
+    "Position": {
+      "UDim2": [[0.43133047, 0], [0.8769297, 0]]
+    },
+    "Size": {
+      "UDim2": [[0.0, 200], [0.0, 50]]
+    },
+    "Text": "Warrior",
+    "TextColor3": [0, 0, 0],
+    "TextScaled": true,
+    "TextSize": 14,
+    "TextWrapped": true
+  }
 }

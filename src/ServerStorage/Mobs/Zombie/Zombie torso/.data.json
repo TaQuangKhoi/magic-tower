@@ -1,3 +1,8 @@
 {
-  "className": "CharacterMesh"
+  "className": "CharacterMesh",
+  "properties": {
+    "BodyPart": "Torso",
+    "MeshId": 37683263,
+    "OverlayTextureId": 37686282
+  }
 }
