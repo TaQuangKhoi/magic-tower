@@ -1,0 +1,10 @@
+{
+  "name": "magic-tower",
+  "tree": {
+    "$className": "DataModel",
+    
+    "ServerScriptService": {
+      "$path": "src/Server"
+    }
+  }
+}
