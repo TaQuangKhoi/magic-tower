@@ -1,3 +1,14 @@
 {
-  "className": "Part"
+  "className": "Part",
+  "properties": {
+    "Anchored": true,
+    "CFrame": [22.999996, 8.417867, -25.442249, 0.999999, 0, 0, 0, 0.999999, 0, 0, 0, 1],
+    "CanCollide": false,
+    "Color": {
+      "Color3uint8": [17, 17, 17]
+    },
+    "Size": [24.684104, 12.835735, 1.234205],
+    "TopSurface": "Smooth",
+    "Transparency": 0.3
+  }
 }

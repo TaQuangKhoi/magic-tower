@@ -1,3 +1,13 @@
 {
-  "className": "UnionOperation"
+  "className": "UnionOperation",
+  "properties": {
+    "Anchored": true,
+    "CFrame": [-10, 4.75, 48, 0, 0, 1, 0, 1, 0, -1, 0, 0],
+    "Color": {
+      "Color3uint8": [91, 93, 105]
+    },
+    "Material": "Brick",
+    "Size": [4, 9.5, 4],
+    "UsePartColor": true
+  }
 }
