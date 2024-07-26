@@ -1,6 +1,7 @@
 local move = {}
 
 function move.moveTo(humanoid, targetPoint, andThen)
+	print("moveLib - Move to")
 	local targetReached = false
 
 	-- listen for the humanoid reaching its target

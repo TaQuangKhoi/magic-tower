@@ -15,8 +15,7 @@ function mob.Move(mob, map)
 	local waypoints = map.Waypoints
 
 	for waypoint = 1, #waypoints:GetChildren() do
-		humanoid:MoveTo(waypoints[waypoint].Position)
-		-- moveLib.moveTo(humanoid, waypoints[waypoint].Position, andThen)
+		moveLib.moveTo(humanoid, waypoints[waypoint].Position, andThen)
 	end
 	
 	-- mob:Destroy()
