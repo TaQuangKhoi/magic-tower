@@ -3,3 +3,5 @@ local ServerStorage = game:GetService("ServerStorage")
 local tower = {}
 
 function tower.Spawn(player, name, c)
+
+end

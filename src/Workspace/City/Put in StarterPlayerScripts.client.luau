@@ -4,10 +4,11 @@ local UserInputService = game:GetService("UserInputService")
 local localPlayer = game.Players.LocalPlayer
 local character
 local humanoid
- 
+
 local canDoubleJump = false
 local hasDoubleJumped = false
-local oldPowerlocal TIME_BETWEEN_JUMPS = 0.1
+local oldPower
+local TIME_BETWEEN_JUMPS = 0.1
 local DOUBLE_JUMP_POWER_MULTIPLIER = 1.5
 
 function onJumpRequest()
@@ -15,13 +16,13 @@ function onJumpRequest()
 	 humanoid:GetState() == Enum.HumanoidStateType.Dead then
 		return
 	end
- 
+
 	if canDoubleJump and not hasDoubleJumped then
 		hasDoubleJumped = true
 		humanoid.JumpPower = oldPower * DOUBLE_JUMP_POWER_MULTIPLIER		humanoid:ChangeState(Enum.HumanoidStateType.Jumping)
 	end
 end
- 
+
 local function characterAdded(newCharacter)
 	character = newCharacter
 	humanoid = newCharacter:WaitForChild("Humanoid")
@@ -37,10 +38,10 @@ local function characterAdded(newCharacter)
 		end
 	end)
 end
- 
+
 if localPlayer.Character then
 	characterAdded(localPlayer.Character)
 end
- 
+
 localPlayer.CharacterAdded:connect(characterAdded)
 UserInputService.JumpRequest:connect(onJumpRequest)
