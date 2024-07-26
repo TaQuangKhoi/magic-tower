@@ -17,9 +17,6 @@ function mob.Move(mob, map)
 	for waypoint = 1, #waypoints:GetChildren() do
 		moveLib.moveTo(humanoid, waypoints[waypoint].Position, andThen)
 	end
-	
-	-- This will cause bug
-	-- mob:Destroy()
 end
 
 function mob.Spawn(name, quantity, map)
