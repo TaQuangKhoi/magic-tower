@@ -2,7 +2,14 @@
   "name": "magic-tower",
   "tree": {
     "$className": "DataModel",
-    
+    "ReplicatedStorage": {
+      "$path": "src/Shared"
+    },
+    "StarterPlayer": {
+      "StarterPlayerScripts": {
+        "$path": "src/Client"
+      }
+    },
     "ServerScriptService": {
       "$path": "src/Server"
     }
