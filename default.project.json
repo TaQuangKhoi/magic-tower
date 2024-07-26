@@ -18,6 +18,9 @@
       "StarterPlayerScripts": {
         "$path": "src/Client"
       }
+    },
+    "Workspace": {
+      "$path": "src/Workspace"
     }
   }
 }

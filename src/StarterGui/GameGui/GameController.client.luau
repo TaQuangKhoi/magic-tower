@@ -3,8 +3,9 @@ local ReplicatedStorage = game:GetService("ReplicatedStorage")
 local RunService = game:GetService("RunService")
 local UserInputService = game:GetService("UserInputService")
 
+local events = ReplicatedStorage:WaitForChild("Events")
 local towers = ReplicatedStorage:WaitForChild("Towers")
-
+local spawnTowerEvent = events:WaitForChild("SpawnTower")
 local camera = workspace.CurrentCamera
 local gui = script.Parent
 
@@ -49,7 +50,7 @@ UserInputService.InputBegan:Connect(function(input, processed)
 	
 	if towerToSpawn then
 		if input.UserInputType == Enum.UserInputType.MouseButton1 then
-
+			spawnTowerEvent:FireServer(towerToSpawn.Name, towerToSpawn.PrimaryPart.CFrame)
 		end
 	end
 	

