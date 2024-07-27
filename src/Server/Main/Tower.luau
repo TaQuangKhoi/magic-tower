@@ -8,6 +8,12 @@ local spawnTowerEvent = events:WaitForChild("SpawnTower")
 local tower = {}
 
 function tower.Spawn(player, name, cframe)
+	-- check name and cframe class
+	if typeof(name) ~= "string" or typeof(cframe) ~= "CFrame" then
+		warn("Invalid arguments")
+		return
+	end
+	
 	local towerExists = ReplicatedStorage.Towers:FindFirstChild(name)
 	
 	if towerExists then
