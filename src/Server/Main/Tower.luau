@@ -2,6 +2,7 @@ local PhysicsService = game:GetService("PhysicsService")
 local ServerStorage = game:GetService("ServerStorage")
 local ReplicatedStorage = game:GetService("ReplicatedStorage")
 
+local spawnTowerEvent = ReplicatedStorage:WaitForChild("Events")
 local events = ReplicatedStorage:WaitForChild("Events")
 local tower = {}
 
@@ -17,7 +18,7 @@ function tower.Spawn(player, name, cframe)
 		-- Set Collision Group for New Mob, see more in MODEL -> Colision Groups feature
 		for i, object in ipairs(newTower :GetDescendants()) do
 			if object:IsA("BasePart") then
-				PhysicsService.CollisionGroup = "Tower"
+				PhysicsService.CollisionGroups = "Tower"
 			end
 		end
 	else
@@ -25,7 +26,6 @@ function tower.Spawn(player, name, cframe)
 	end
 end
 
--- Bug: spawnTowerEvent is not defined
 spawnTowerEvent.OnServerEvent:Connect(tower.Spawn)
 
 return tower
