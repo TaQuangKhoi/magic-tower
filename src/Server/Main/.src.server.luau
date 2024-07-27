@@ -1,4 +1,5 @@
 local mob = require(script.Mob)
+local tower = require(script.Tower)
 
 local map = workspace.City
 local starterGui = game.StarterGui
