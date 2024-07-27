@@ -1,3 +1,4 @@
+--disable
 local tower = script.Parent
 local mobs = workspace.Mobs
 
@@ -21,8 +22,8 @@ end
 while true do
 	local target = FindNearestTarget()
 	if target then
-		target.Humanoid:TakeDamage(2)
+		target.Humanoid:TakeDamage(1)
 	end
 	
-	task.wait(0.2)
+	task.wait(0.02)
 end
