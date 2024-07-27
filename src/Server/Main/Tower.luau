@@ -12,16 +12,16 @@ function tower.Spawn(player, name, cframe)
 	
 	if towerExists then
 		local newTower = towerExists:Clone()
-		newTower.HumanoidRootPart.CFrame = cframe
+		newTower.Warrior.HumanoidRootPart.CFrame = cframe
 		newTower.Parent = workspace.Towers
-		newTower.HumanoidRootPart:SetNetworkOwner(nil)
+		--newTower.Warrior.HumanoidRootPart:SetNetworkOwner(nil)
 
 		-- Set Collision Group for New Mob, see more in MODEL -> Colision Groups feature
-		for i, object in ipairs(newTower :GetDescendants()) do
-			if object:IsA("BasePart") then
-				PhysicsService.CollisionGroups = "Tower"
-			end
-		end
+		--for i, object in ipairs(newTower :GetDescendants()) do
+		--	if object:IsA("BasePart") then
+		--		PhysicsService.CollisionGroups = "Tower"
+		--	end
+		--end
 	else
 		warn("Requested tower does not exist")
 	end
