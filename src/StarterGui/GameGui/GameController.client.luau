@@ -24,9 +24,18 @@ local function MouseRayCast(blacklist)
 	return raycastResult
 end
 
+local function RemovePlaceHolderTower()
+	if towerToSpawn then
+		towerToSpawn:Destroy()
+		towerToSpawn = nil
+	end
+end
+	
+
 local function AddPlaceHolderTower(name)
 	local towerExists = towers:FindFirstChild(name)
 	if towerExists then
+		RemovePlaceHolderTower()
 		towerToSpawn = towerExists:Clone()
 		towerToSpawn.Parent = workspace.Towers
 
@@ -51,6 +60,7 @@ UserInputService.InputBegan:Connect(function(input, processed)
 	if towerToSpawn then
 		if input.UserInputType == Enum.UserInputType.MouseButton1 then
 			spawnTowerEvent:FireServer(towerToSpawn.Name, towerToSpawn.PrimaryPart.CFrame)
+			RemovePlaceHolderTower()
 		end
 	end
 	
