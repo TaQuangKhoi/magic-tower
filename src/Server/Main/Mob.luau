@@ -2,9 +2,18 @@ local ServerStorage = game:GetService("ServerStorage")
 local moveLib = require(script.Parent.MoveLib)
 
 local mob = {}
-
-local function andThen(reached)
-	print((reached and "Destination reached!") or "Failed to reach destination!")
+-- recursive function to move to the next waypoint
+local function moveToNextWaypoint(humanoid, waypoints, currentWaypoint)
+	local lenght = #waypoints:GetChildren()
+	moveLib.moveTo(humanoid, waypoints[currentWaypoint].Position, function(reached)
+		if reached then
+			print("Destination reached!".. lenght)
+			currentWaypoint = currentWaypoint + 1
+			if currentWaypoint <= lenght then
+				moveToNextWaypoint(humanoid, waypoints, currentWaypoint)
+			end
+		end
+	end)
 end
 
 -- Use for all mobs, both Zombie and Dummy
@@ -13,10 +22,10 @@ function mob.Move(mob, map)
 	local humanoid = mob:WaitForChild("Humanoid")
 
 	local waypoints = map.Waypoints
+	local lenght = #waypoints:GetChildren()
 
-	for waypoint = 1, #waypoints:GetChildren() do
-		moveLib.moveTo(humanoid, waypoints[waypoint].Position, andThen)
-	end
+	local currentWaypoint = 1
+	moveToNextWaypoint(humanoid, waypoints, currentWaypoint)
 end
 
 function mob.Spawn(name, quantity, map)

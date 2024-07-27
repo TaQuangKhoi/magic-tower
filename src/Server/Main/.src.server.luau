@@ -15,6 +15,13 @@ storage.ReadyEvent.OnServerEvent:Connect(function()
 		if wave < 3 then
 			print("Less than 3")
 			mob.Spawn("Dummy", 2 * wave, map)
+			mob.Spawn("FastDummy", 50 * wave, map)
+			mob.Spawn("FastDummy", 50 * wave, map)
+			mob.Spawn("FastDummy", 50 * wave, map)
+			mob.Spawn("FastDummy", 50 * wave, map)
+			mob.Spawn("FastDummy", 50 * wave, map)
+			mob.Spawn("FastDummy", 50 * wave, map)
+			mob.Spawn("FastDummy", 50 * wave, map)
 			
 			-- Disalbed by Keios for testing Spawn Move Position
 			mob.Spawn("Zombie", 5 * wave, map)
