@@ -2,8 +2,9 @@ local PhysicsService = game:GetService("PhysicsService")
 local ServerStorage = game:GetService("ServerStorage")
 local ReplicatedStorage = game:GetService("ReplicatedStorage")
 
-local spawnTowerEvent = ReplicatedStorage:WaitForChild("Events")
+
 local events = ReplicatedStorage:WaitForChild("Events")
+local spawnTowerEvent = events:WaitForChild("SpawnTower")
 local tower = {}
 
 function tower.Spawn(player, name, cframe)
