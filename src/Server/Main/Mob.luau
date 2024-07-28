@@ -3,14 +3,17 @@ local moveLib = require(script.Parent.MoveLib)
 
 local mob = {}
 -- recursive function to move to the next waypoint
-local function moveToNextWaypoint(humanoid, waypoints, currentWaypoint)
+local function moveToNextWaypoint(humanoid, waypoints, currentWaypoint, endThen)
 	local lenght = #waypoints:GetChildren()
 	moveLib.moveTo(humanoid, waypoints[currentWaypoint].Position, function(reached)
 		if reached then
-			print("Destination reached!".. lenght)
 			currentWaypoint = currentWaypoint + 1
 			if currentWaypoint <= lenght then
 				moveToNextWaypoint(humanoid, waypoints, currentWaypoint)
+			else
+				if endThen then
+					endThen()
+				end
 			end
 		end
 	end)
@@ -25,7 +28,9 @@ function mob.Move(mob, map)
 	local lenght = #waypoints:GetChildren()
 
 	local currentWaypoint = 1
-	moveToNextWaypoint(humanoid, waypoints, currentWaypoint)
+	moveToNextWaypoint(humanoid, waypoints, currentWaypoint, function()
+		mob:Destroy()
+	end)
 end
 
 function mob.Spawn(name, quantity, map)
