@@ -1,6 +1,3 @@
 {
-  "className": "Decal",
-  "properties": {
-    "Texture": "rbxasset://textures/face.png"
-  }
+  "className": "Decal"
 }
