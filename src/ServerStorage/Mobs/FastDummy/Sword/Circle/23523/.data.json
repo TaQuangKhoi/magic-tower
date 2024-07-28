@@ -1,3 +1,10 @@
 {
-  "className": "UnionOperation"
+  "className": "UnionOperation",
+  "properties": {
+    "CFrame": [-23.444944, 1.972888, -162.462448, -0.999997, 0, 0, 0, 1, 0, 0, 0, -1],
+    "Color": {
+      "Color3uint8": [91, 93, 105]
+    },
+    "Size": [0.15471, 0.477022, 0.477022]
+  }
 }

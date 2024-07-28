@@ -1,3 +1,11 @@
 {
-  "className": "UnionOperation"
+  "className": "UnionOperation",
+  "properties": {
+    "CFrame": [-23.444608, 1.972885, -162.476211, 0.999997, 0, 0, 0, 0, -1, 0, 1, 0],
+    "Color": {
+      "Color3uint8": [255, 255, 0]
+    },
+    "Material": "Neon",
+    "Size": [0.156694, 0.724706, 0.724706]
+  }
 }

@@ -1,4 +1,9 @@
 --disable
+
+--[[
+	This script is responsible for attacking mobs.
+	When a mob is added to the workspace, it will attack the nearest mob based on its range.
+]]
 local tower = script.Parent
 local mobs = workspace.Mobs
 local damage = 5

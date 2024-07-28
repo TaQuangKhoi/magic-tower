@@ -2,12 +2,12 @@
   "className": "Part",
   "properties": {
     "BottomSurface": "Smooth",
-    "CFrame": [4.25, 3, -167.75, -1, 0, 0, 0, 1, 0, 0, 0, -1],
+    "CFrame": [4.25, 2.999997, -167.75, -1, 0, 0, 0, 0.999998, 0, 0, 0, -1],
     "CanTouch": false,
     "CollisionGroup": "Zombie",
     "CollisionGroupId": -1,
     "Color": {
-      "Color3uint8": [39, 70, 45]
+      "Color3uint8": [38, 69, 44]
     },
     "FormFactor": "Symmetric",
     "Material": "WoodPlanks",

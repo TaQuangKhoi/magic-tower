@@ -1,3 +1,14 @@
 {
-  "className": "Part"
+  "className": "Part",
+  "properties": {
+    "Anchored": true,
+    "BottomSurface": "Smooth",
+    "CFrame": [-37.382011, 9.304892, 151.390579, -1, 0, 0, 0, 0.999999, 0, 0, 0, -0.999999],
+    "Color": {
+      "Color3uint8": [122, 141, 129]
+    },
+    "Material": "Brick",
+    "Size": [30, 15, 29],
+    "TopSurface": "Smooth"
+  }
 }

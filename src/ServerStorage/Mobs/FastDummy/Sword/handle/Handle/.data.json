@@ -1,3 +1,14 @@
 {
-  "className": "Part"
+  "className": "Part",
+  "properties": {
+    "BottomSurface": "Smooth",
+    "CFrame": [-23.445302, 1.973623, -163.849822, 0, 0, 0.999997, 0, 1, 0, -1, 0, 0],
+    "Color": {
+      "Color3uint8": [27, 42, 53]
+    },
+    "Material": "Granite",
+    "Shape": "Cylinder",
+    "Size": [1.889557, 0.465408, 0.232704],
+    "TopSurface": "Smooth"
+  }
 }
