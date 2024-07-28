@@ -4,9 +4,10 @@ local tower = require(script.Tower)
 local map = workspace.City
 local starterGui = game.StarterGui
 local waveNumber = starterGui.ScreenGui.txtlbl_WaveNumber
-local storage = game.ReplicatedStorage
+local ReplicatedStorage = game:GetService("ReplicatedStorage")
+local events = ReplicatedStorage:WaitForChild("Events")
 
-storage.ReadyEvent.OnServerEvent:Connect(function()
+events.ReadyEvent.OnServerEvent:Connect(function()
 	print("Player is ready")
 	
 	for wave = 1, 10 do
@@ -15,13 +16,6 @@ storage.ReadyEvent.OnServerEvent:Connect(function()
 		if wave < 3 then
 			print("Less than 3")
 			mob.Spawn("Dummy", 2 * wave, map)
-			mob.Spawn("FastDummy", 50 * wave, map)
-			mob.Spawn("FastDummy", 50 * wave, map)
-			mob.Spawn("FastDummy", 50 * wave, map)
-			mob.Spawn("FastDummy", 50 * wave, map)
-			mob.Spawn("FastDummy", 50 * wave, map)
-			mob.Spawn("FastDummy", 50 * wave, map)
-			mob.Spawn("FastDummy", 50 * wave, map)
 			
 			-- Disalbed by Keios for testing Spawn Move Position
 			mob.Spawn("Zombie", 5 * wave, map)

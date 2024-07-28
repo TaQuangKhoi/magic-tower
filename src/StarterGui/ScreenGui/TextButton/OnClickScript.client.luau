@@ -1,10 +1,12 @@
-local storage = game:GetService("ReplicatedStorage")
+local ReplicatedStorage = game:GetService("ReplicatedStorage")
+local events = ReplicatedStorage:WaitForChild("Events")
+
 local serverScriptService = game.ServerScriptService
 local button = script.Parent
 
 local function firePlayerReady()
 	button.Visible = false
-	storage.ReadyEvent:FireServer()
+	events.ReadyEvent:FireServer()
 end
 
 button.MouseButton1Click:Connect(firePlayerReady)
