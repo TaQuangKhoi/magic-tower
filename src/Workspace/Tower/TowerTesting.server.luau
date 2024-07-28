@@ -1,3 +1,4 @@
+--disable
 local tower = script.Parent
 local mobs = workspace.Mobs
 
@@ -7,9 +8,9 @@ local function FindNearestTarget()
 
 	for i, target in ipairs(mobs:GetChildren()) do
 		local distance = (target.HumanoidRootPart.Position - tower.Position).Magnitude
-		print(target.Name, distance)
+		--print(target.Name, distance)
 		if distance < maxDistance then
-			print(target.Name, "yes sir")
+			--print(target.Name, "yes sir")
 			nearestTarget = target
 			maxDistance = distance
 		end

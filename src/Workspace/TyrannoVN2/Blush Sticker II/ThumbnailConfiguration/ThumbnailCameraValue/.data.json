@@ -1,3 +1,6 @@
 {
-  "className": "CFrameValue"
+  "className": "CFrameValue",
+  "properties": {
+    "Value": [0, 0.054472, -0.622621, -1, 0, 0, 0, 0.996194, 0.087155, 0, 0.087155, -0.996194]
+  }
 }

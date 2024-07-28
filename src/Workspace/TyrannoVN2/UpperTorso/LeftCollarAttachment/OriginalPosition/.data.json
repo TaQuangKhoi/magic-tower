@@ -1,3 +1,6 @@
 {
-  "className": "Vector3Value"
+  "className": "Vector3Value",
+  "properties": {
+    "Value": [-0.742068, 1.018469, 0]
+  }
 }

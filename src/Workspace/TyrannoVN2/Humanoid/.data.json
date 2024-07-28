@@ -1,3 +1,7 @@
 {
-  "className": "Humanoid"
+  "className": "Humanoid",
+  "properties": {
+    "HipHeight": 6.002103,
+    "RigType": "R15"
+  }
 }

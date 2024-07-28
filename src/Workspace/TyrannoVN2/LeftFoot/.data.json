@@ -1,3 +1,13 @@
 {
-  "className": "MeshPart"
+  "className": "MeshPart",
+  "properties": {
+    "CFrame": [147.276763, 0.237347, 194.065734, 1, 0, 0, 0, 1, 0, 0, 0, 1],
+    "CanCollide": false,
+    "Color": {
+      "Color3uint8": [248, 248, 248]
+    },
+    "InitialSize": [1, 0.3, 1],
+    "MeshId": "http://www.roblox.com/asset/?id=532220012",
+    "Size": [1.123674, 0.471082, 1.014298]
+  }
 }

@@ -1,3 +1,6 @@
 {
-  "className": "NumberValue"
+  "className": "NumberValue",
+  "properties": {
+    "Value": 0.899999
+  }
 }

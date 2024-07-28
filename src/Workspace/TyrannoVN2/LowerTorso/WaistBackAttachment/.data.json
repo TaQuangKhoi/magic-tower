@@ -1,3 +1,6 @@
 {
-  "className": "Attachment"
+  "className": "Attachment",
+  "properties": {
+    "CFrame": [0, -0.109258, 0.541357, 1, 0, 0, 0, 1, 0, 0, 0, 1]
+  }
 }

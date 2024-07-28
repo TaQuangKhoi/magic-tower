@@ -1,3 +1,6 @@
 {
-  "className": "Pose"
+  "className": "Pose",
+  "properties": {
+    "CFrame": [0, 0, 0, 0.936882, 0, -0.349643, 0, 1, 0, 0.349643, 0, 0.936882]
+  }
 }

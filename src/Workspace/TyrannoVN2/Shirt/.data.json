@@ -1,3 +1,6 @@
 {
-  "className": "Shirt"
+  "className": "Shirt",
+  "properties": {
+    "ShirtTemplate": "http://www.roblox.com/asset/?id=676612911"
+  }
 }

@@ -1,3 +1,13 @@
 {
-  "className": "Part"
+  "className": "Part",
+  "properties": {
+    "BottomSurface": "Smooth",
+    "CFrame": [3.5, 2.999997, -198.5, 1, 0, 0, 0, 0.999997, 0, 0, 0, 1],
+    "CanCollide": false,
+    "Color": {
+      "Color3uint8": [241, 218, 217]
+    },
+    "Size": [1, 2, 1],
+    "TopSurface": "Smooth"
+  }
 }

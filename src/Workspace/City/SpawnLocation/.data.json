@@ -2,7 +2,7 @@
   "className": "SpawnLocation",
   "properties": {
     "BottomSurface": "Smooth",
-    "CFrame": [15, 2.500439, 17, 1, 0, 0, 0, 1, 0, 0, 0, 1],
+    "CFrame": [15, 1.10441, 17, 1, 0, 0, 0, 1, 0, 0, 0, 1],
     "Duration": 0,
     "Size": [12, 1, 12],
     "TopSurface": "Smooth"

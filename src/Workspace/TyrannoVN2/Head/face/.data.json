@@ -1,3 +1,6 @@
 {
-  "className": "Decal"
+  "className": "Decal",
+  "properties": {
+    "Texture": "http://www.roblox.com/asset/?id=406035320 "
+  }
 }
