@@ -1,12 +1,15 @@
 --disable
 local tower = script.Parent
 local mobs = workspace.Mobs
+local damage = 5
+local range = 50
+local attackSpeed = 1 -- attacks per second
 
 local function FindNearestTarget()
-	local maxDistance = 50
+	local maxDistance = range
 	local nearestTarget = nil
 
-	for i, target in ipairs(mobs:GetChildren()) do
+	for index, target in ipairs(mobs:GetChildren()) do
 		local distance = (target.HumanoidRootPart.Position - tower.Position).Magnitude
 		--print(target.Name, distance)
 		if distance < maxDistance then
@@ -14,7 +17,7 @@ local function FindNearestTarget()
 			nearestTarget = target
 			maxDistance = distance
 		end
-	end 
+	end
 	
 	return nearestTarget
 end
@@ -22,8 +25,8 @@ end
 while true do
 	local target = FindNearestTarget()
 	if target then
-		target.Humanoid:TakeDamage(5)
+		target.Humanoid:TakeDamage(damage)
 	end
-	
-	task.wait(0.02)
+
+	task.wait(1 / attackSpeed)
 end
