@@ -1,3 +1,18 @@
 {
-  "className": "Part"
+  "className": "Part",
+  "properties": {
+    "BottomSurface": "Smooth",
+    "CFrame": [5.75, 3, -167.75, -1, 0, 0, 0, 0.999999, 0, 0, 0, -1],
+    "CanCollide": false,
+    "CanTouch": false,
+    "CollisionGroup": "Zombie",
+    "CollisionGroupId": -1,
+    "Color": {
+      "Color3uint8": [39, 70, 45]
+    },
+    "FormFactor": "Symmetric",
+    "Material": "WoodPlanks",
+    "Size": [1, 2, 1],
+    "TopSurface": "Smooth"
+  }
 }

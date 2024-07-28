@@ -1,7 +1,7 @@
 {
   "className": "Part",
   "properties": {
-    "CFrame": [-21.000001, 3.000439, 14.5, -0.999999, 0, 0, 0, 1, 0, 0, 0, -1],
+    "CFrame": [-21.921997, 3, -163.581481, -0.999998, 0, 0, 0, 1, 0, 0, 0, -1],
     "CanTouch": false,
     "CollisionGroup": "Dummy",
     "CollisionGroupId": -1,

@@ -1,7 +1,7 @@
 {
   "className": "TextButton",
   "properties": {
-    "BackgroundColor3": [1, 1, 1],
+    "BackgroundColor3": [0.266666, 1, 0],
     "BorderColor3": [0, 0, 0],
     "BorderSizePixel": 0,
     "FontFace": {
@@ -20,6 +20,7 @@
     "TextColor3": [0, 0, 0],
     "TextScaled": true,
     "TextSize": 14,
-    "TextWrapped": true
+    "TextWrapped": true,
+    "ZIndex": 5
   }
 }
