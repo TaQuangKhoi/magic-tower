@@ -1,3 +1,9 @@
+--[[
+	This script is responsible for animating mobs.
+	When a mob is added to the workspace, it will animate the mob based on its state.
+]]
+
+-- Depreciated
 local function setAnimation(object, animName)
 
 end
