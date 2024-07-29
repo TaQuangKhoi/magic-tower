@@ -17,6 +17,10 @@
     "StarterPlayer": {
       "StarterPlayerScripts": {
         "$path": "src/Client"
+      },
+      "$properties": {
+        "CharacterJumpHeight": 0,
+        "CharacterJumpPower": 0
       }
     },
     "Workspace": {
