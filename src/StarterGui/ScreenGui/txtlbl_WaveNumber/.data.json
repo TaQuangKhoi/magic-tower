@@ -2,19 +2,21 @@
   "className": "TextLabel",
   "properties": {
     "BackgroundColor3": [1, 1, 1],
+    "BackgroundTransparency": 1,
     "BorderColor3": [0, 0, 0],
     "BorderSizePixel": 0,
     "FontFace": {
-      "family": "rbxasset://fonts/families/SourceSansPro.json",
-      "weight": "Regular",
+      "family": "rbxasset://fonts/families/Arial.json",
+      "weight": "Bold",
       "style": "Normal",
       "cachedFaceId": null
     },
     "Size": {
-      "UDim2": [[0.0, 200], [0.0, 50]]
+      "UDim2": [[0.0, 112], [0.0, 34]]
     },
     "Text": "Wave {#}",
-    "TextColor3": [0, 0, 0],
-    "TextSize": 14
+    "TextColor3": [1, 1, 1],
+    "TextSize": 14,
+    "TextWrapped": true
   }
 }

@@ -1,3 +1,6 @@
 {
-  "className": "Motor6D"
+  "className": "Motor6D",
+  "properties": {
+    "C0": [0, 0.681415, 0.201033, 1, 0, 0, 0, 1, 0, 0, 0, 1]
+  }
 }

@@ -3,7 +3,7 @@
   "properties": {
     "Anchored": true,
     "BottomSurface": "Smooth",
-    "CFrame": [6, 105.950012, 194, 0, 0, 1, -1, 0, 0, 0, -1, 0],
+    "CFrame": [2.399999, 44.150009, 193.524429, 0, 0, 1, -1, 0, 0, 0, -1, 0],
     "CanCollide": false,
     "Color": {
       "Color3uint8": [255, 255, 0]

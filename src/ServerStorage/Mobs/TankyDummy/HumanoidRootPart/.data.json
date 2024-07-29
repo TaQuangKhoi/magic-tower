@@ -2,7 +2,7 @@
   "className": "Part",
   "properties": {
     "BottomSurface": "Smooth",
-    "CFrame": [-7, 13.692282, 22, -1, 0, 0, 0, 1, 0, 0, 0, -1],
+    "CFrame": [-7, 14.604047, 22, -1, 0, 0, 0, 1, 0, 0, 0, -1],
     "CanCollide": false,
     "CanTouch": false,
     "CollisionGroup": "Dummy",
@@ -13,7 +13,7 @@
     "LeftParamB": 0,
     "RightParamA": 0,
     "RightParamB": 0,
-    "Size": [2, 2, 1],
+    "Size": [2.607843, 2.607843, 1.303921],
     "TopSurface": "Smooth",
     "Transparency": 1
   }

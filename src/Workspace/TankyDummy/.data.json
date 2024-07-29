@@ -3,7 +3,7 @@
   "properties": {
     "WorldPivotData": {
       "OptionalCFrame": {
-        "position": [-12.963318, 3.0, -138.76062],
+        "position": [8.899963, 3.0, -167.5],
         "orientation": [[-1.0, 0.0, 0.0], [0.0, 1.0, 0.0], [0.0, 0.0, -1.0]]
       }
     }

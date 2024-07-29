@@ -1,0 +1,13 @@
+{
+  "className": "UnionOperation",
+  "properties": {
+    "Anchored": true,
+    "CFrame": [2.313946, 25.903923, 204.812072, 0, -0.707105, -0.707105, 0, 0.707105, -0.707105, 1, 0, 0],
+    "Color": {
+      "Color3uint8": [106, 57, 9]
+    },
+    "Material": "RoofShingles",
+    "RenderFidelity": "Automatic",
+    "Size": [32.824607, 30.825168, 30.824815]
+  }
+}

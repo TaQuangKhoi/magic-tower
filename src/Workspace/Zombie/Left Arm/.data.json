@@ -2,7 +2,7 @@
   "className": "Part",
   "properties": {
     "BottomSurface": "Smooth",
-    "CFrame": [5.75, 2.999998, -167.75, -1, 0, 0, 0, 0.999996, 0, 0, 0, -1],
+    "CFrame": [5.75, 2.999997, -167.75, -1, 0, 0, 0, 0.999995, 0, 0, 0, -1],
     "CanCollide": false,
     "CanTouch": false,
     "CollisionGroup": "Zombie",

@@ -1,0 +1,21 @@
+{
+  "className": "HumanoidDescription",
+  "properties": {
+    "BodyTypeScale": 1,
+    "Face": 406000730,
+    "FaceAccessory": "10790010186",
+    "HatAccessory": "13003619133",
+    "HeadColor": [0.972549, 0.972549, 0.972549],
+    "HeightScale": 0.899999,
+    "IdleAnimation": 11600321661,
+    "LeftArmColor": [0.972549, 0.972549, 0.972549],
+    "LeftLegColor": [0.972549, 0.972549, 0.972549],
+    "MoodAnimation": 13682070606,
+    "Pants": 676613273,
+    "RightArmColor": [0.972549, 0.972549, 0.972549],
+    "RightLegColor": [0.972549, 0.972549, 0.972549],
+    "Shirt": 676612916,
+    "ShouldersAccessory": "16028680209,11288315358",
+    "TorsoColor": [0.972549, 0.972549, 0.972549]
+  }
+}

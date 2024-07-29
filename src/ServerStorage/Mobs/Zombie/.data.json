@@ -1,7 +1,7 @@
 {
   "className": "Model",
   "properties": {
-    "Tags": ["SoldierEnemy", "ZombieFriend"],
+    "Tags": ["SoldierEnemy", "ZombieFriend", "Mob"],
     "WorldPivotData": {
       "OptionalCFrame": {
         "position": [18.0, 4.5004396, 4.5],

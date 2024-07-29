@@ -4,8 +4,8 @@
     "Tags": ["SoldierEnemy", "ZombieFriend"],
     "WorldPivotData": {
       "OptionalCFrame": {
-        "position": [4.25, 2.500002, -167.75],
-        "orientation": [[-1.0, 0.0, 0.0], [0.0, 1.0, 0.0], [0.0, 0.0, -1.0]]
+        "position": [4.25, 2.999997, -167.75],
+        "orientation": [[-1.0, 0.0, 0.0], [0.0, 0.999998, 0.0], [0.0, 0.0, -1.0]]
       }
     }
   }

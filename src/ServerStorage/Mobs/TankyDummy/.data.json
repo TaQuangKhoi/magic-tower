@@ -1,9 +1,11 @@
 {
   "className": "Model",
   "properties": {
+    "Scale": 1.303921,
+    "Tags": ["Mob"],
     "WorldPivotData": {
       "OptionalCFrame": {
-        "position": [-7.0, 13.692283, 22.0],
+        "position": [-7.0, 14.604048, 22.0],
         "orientation": [[-1.0, 0.0, 0.0], [0.0, 1.0, 0.0], [0.0, 0.0, -1.0]]
       }
     }

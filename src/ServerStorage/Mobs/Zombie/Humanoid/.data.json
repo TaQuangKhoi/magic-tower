@@ -3,6 +3,6 @@
   "properties": {
     "DisplayName": "Zombie",
     "MaxHealth": 10,
-    "WalkSpeed": 3.299999
+    "WalkSpeed": 3
   }
 }

@@ -1,0 +1,7 @@
+{
+  "className": "Accessory",
+  "properties": {
+    "AccessoryType": "Hat",
+    "AttachmentPoint": [-0.000049, 0.600071, -0.000403, 1, 0, 0, 0, 1, 0, 0, 0, 1]
+  }
+}

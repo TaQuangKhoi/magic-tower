@@ -1,0 +1,12 @@
+{
+  "className": "Model",
+  "properties": {
+    "Scale": 0.874157,
+    "WorldPivotData": {
+      "OptionalCFrame": {
+        "position": [1.8194318, 19.84307, 203.9698],
+        "orientation": [[0.0, -0.70710677, -0.70710677], [0.0, 0.70710677, -0.70710677], [1.0, 0.0, 0.0]]
+      }
+    }
+  }
+}

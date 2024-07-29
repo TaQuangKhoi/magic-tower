@@ -1,0 +1,7 @@
+{
+  "className": "Accessory",
+  "properties": {
+    "AccessoryType": "Shoulder",
+    "AttachmentPoint": [-0.12622, -0.60638, 0.013435, 0.999999, 0, 0, 0, 1, 0, 0, 0, 0.999999]
+  }
+}

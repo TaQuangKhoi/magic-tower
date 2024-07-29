@@ -1,3 +1,6 @@
 {
-  "className": "KeyframeSequence"
+  "className": "KeyframeSequence",
+  "properties": {
+    "AuthoredHipHeight": 0
+  }
 }

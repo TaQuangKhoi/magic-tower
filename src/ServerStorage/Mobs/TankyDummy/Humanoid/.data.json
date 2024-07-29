@@ -5,8 +5,10 @@
     "DisplayName": "Dummy",
     "HealthDisplayDistance": 0,
     "HealthDisplayType": "AlwaysOff",
+    "JumpHeight": 9.388236,
+    "JumpPower": 65.196083,
     "MaxHealth": 50,
     "NameDisplayDistance": 0,
-    "WalkSpeed": 2
+    "WalkSpeed": 2.607843
   }
 }

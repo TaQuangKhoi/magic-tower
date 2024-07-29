@@ -1,7 +1,7 @@
 {
   "className": "Part",
   "properties": {
-    "CFrame": [-8.5, 13.692282, 22, -1, 0, 0, 0, 1, 0, 0, 0, -1],
+    "CFrame": [-8.955883, 14.604047, 22, -1, 0, 0, 0, 1, 0, 0, 0, -1],
     "CanCollide": false,
     "CanTouch": false,
     "CollisionGroup": "Dummy",
@@ -11,6 +11,6 @@
     },
     "EnableFluidForces": false,
     "FormFactor": "Symmetric",
-    "Size": [1, 2, 1]
+    "Size": [1.303921, 2.607843, 1.303921]
   }
 }

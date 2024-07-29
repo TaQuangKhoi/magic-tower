@@ -2,13 +2,13 @@
   "className": "Part",
   "properties": {
     "BottomSurface": "Smooth",
-    "CFrame": [-6.5, 11.692282, 22, -1, 0, 0, 0, 1, 0, 0, 0, -1],
+    "CFrame": [-6.348039, 11.996204, 22, -1, 0, 0, 0, 1, 0, 0, 0, -1],
     "CanCollide": false,
     "CanTouch": false,
     "CollisionGroup": "Dummy",
     "CollisionGroupId": -1,
     "EnableFluidForces": false,
     "FormFactor": "Symmetric",
-    "Size": [1, 2, 1]
+    "Size": [1.303921, 2.607843, 1.303921]
   }
 }

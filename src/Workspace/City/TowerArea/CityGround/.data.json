@@ -3,12 +3,12 @@
   "properties": {
     "Anchored": true,
     "BottomSurface": "Smooth",
-    "CFrame": [2, 1.500439, 92.5, 1, 0, 0, 0, 1, 0, 0, 0, 1],
+    "CFrame": [2, 0.600439, 92.5, 1, 0, 0, 0, 1, 0, 0, 0, 1],
     "Color": {
       "Color3uint8": [225, 225, 225]
     },
     "Material": "Ground",
-    "Size": [134, 1, 243],
+    "Size": [134, 2.799999, 243],
     "TopSurface": "Smooth"
   }
 }

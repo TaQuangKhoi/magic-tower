@@ -1,23 +1,24 @@
 {
   "className": "TextButton",
   "properties": {
-    "BackgroundColor3": [1, 1, 1],
+    "BackgroundColor3": [0.956862, 1, 0.57647],
     "BorderColor3": [0, 0, 0],
     "BorderSizePixel": 0,
     "FontFace": {
       "family": "rbxasset://fonts/families/SourceSansPro.json",
-      "weight": "Regular",
+      "weight": "Bold",
       "style": "Normal",
       "cachedFaceId": null
     },
     "Position": {
-      "UDim2": [[0.4313627, 0], [-0.0016475425, 0]]
+      "UDim2": [[0.43053004, 0], [0.057492245, 0]]
     },
     "Size": {
       "UDim2": [[0.0, 200], [0.0, 50]]
     },
     "Text": "Start Wave",
     "TextColor3": [0, 0, 0],
-    "TextSize": 14
+    "TextSize": 30,
+    "TextWrapped": true
   }
 }
