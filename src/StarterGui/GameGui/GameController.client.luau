@@ -15,9 +15,15 @@ local rotation = 0
 
 local function MouseRayCast(blacklist)
 	local mousePosition = UserInputService:GetMouseLocation()
-	local mouseRay = camera:ViewportPointToRay(mousePosition.X, mousePosition.Y)
-	local raycastParams = RaycastParams.new()
 
+	--[[
+	Create a ray from the camera to the mouse.
+	Origin is the camera position, and the direction is the mouse position. => All in 3D space.
+	]]
+	local mouseRay = camera:ViewportPointToRay(mousePosition.X, mousePosition.Y)
+
+	-- Create a RaycastParams object to filter out the blacklist.
+	local raycastParams = RaycastParams.new()
 	raycastParams.FilterType = Enum.RaycastFilterType.Exclude
 	raycastParams.FilterDescendantsInstances = blacklist
 
