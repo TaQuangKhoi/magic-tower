@@ -19,13 +19,13 @@ events.ReadyEvent.OnServerEvent:Connect(function()
 			
 			-- Disalbed by Keios for testing Spawn Move Position
 			mob.Spawn("Zombie", 5 * wave, map)
-			mob.Spawn("FastDummy", 5 * wave, map)
+			mob.Spawn("FastDummy", math.random(4,8) * wave, map)
 			mob.Spawn("TankyDummy", 2 * wave, map)
 			task.wait(2)
 			mob.Spawn("Dummy", 10 * wave, map)
 
 		elseif wave > 3 then
-			mob.Spawn("FastDummy", 50 * wave, map)
+			mob.Spawn("FastDummy", math.random(4,8) * wave, map)
 			mob.Spawn("Zombie", 100, map)
 			mob.Spawn("Dummy", 25 * wave, map)
 		end
