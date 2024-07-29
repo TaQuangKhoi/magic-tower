@@ -5,6 +5,7 @@ local ReplicatedStorage = game:GetService("ReplicatedStorage")
 
 local events = ReplicatedStorage:WaitForChild("Events")
 local spawnTowerEvent = events:WaitForChild("SpawnTower")
+
 local tower = {}
 
 function FindNearestTarget(newTower)
@@ -35,6 +36,7 @@ function tower.Attack(newTower)
 end
 
 function tower.Spawn(player, name, cframe)
+	print("Spawning tower")
 	-- check name and cframe class
 	if typeof(name) ~= "string" or typeof(cframe) ~= "CFrame" then
 		warn("Invalid arguments")
@@ -45,16 +47,18 @@ function tower.Spawn(player, name, cframe)
 	
 	if towerExists then
 		local newTower = towerExists:Clone()
-		newTower.Warrior.HumanoidRootPart.CFrame = cframe
+		newTower.HumanoidRootPart.CFrame = cframe
 		newTower.Parent = workspace.Towers
-		--newTower.Warrior.HumanoidRootPart:SetNetworkOwner(nil)
+		newTower.HumanoidRootPart:SetNetworkOwner(nil)
 
-		-- Set Collision Group for New Mob, see more in MODEL -> Colision Groups feature
-		--for i, object in ipairs(newTower :GetDescendants()) do
-		--	if object:IsA("BasePart") then
-		--		PhysicsService.CollisionGroups = "Tower"
-		--	end
-		--end
+		 --Set Collision Group for New Mob, see more in MODEL -> Colision Groups feature
+		for i, object in ipairs(newTower :GetDescendants()) do
+			if object:IsA("BasePart") then
+				PhysicsService.CollisionGroups = "Tower"
+			end
+		end
+		
+		coroutine.wrap(tower.Attack)(newTower)
 	else
 		warn("Requested tower does not exist")
 	end

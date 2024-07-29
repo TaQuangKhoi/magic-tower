@@ -39,7 +39,7 @@ local function RemovePlaceHolderTower()
 		rotation = 0
 	end
 end
-	
+
 
 local function AddPlaceHolderTower(name)
 	local towerExists = towers:FindFirstChild(name)
@@ -50,15 +50,17 @@ local function AddPlaceHolderTower(name)
 
 		for i, object in ipairs(towerToSpawn:GetDescendants()) do
 			if object:IsA("BasePart") then
-				PhysicsService:SetPartCollisionGroup(object, "Tower")
+				object.CollisionGroup = "Tower"
+				-- PhysicsService:SetPartCollisionGroup(object, "Tower")
+
 				object.Material = Enum.Material.ForceField
 			end
 		end
 	end
 end
 
+-- Change the color of the tower to indicate if it can be placed or not.
 local function ColorPlaceHolderTower(color)
-
 	for i, object in ipairs(towerToSpawn:GetDescendants()) do
 		if object:IsA("BasePart") then
 			object.Color = color
@@ -88,6 +90,8 @@ UserInputService.InputBegan:Connect(function(input, processed)
 	
 end)
 
+-- Update the tower position and color based on the mouse position.
+-- This is done in the RenderStepped event to make sure the tower follows the mouse.
 RunService.RenderStepped:Connect(function()
 	if towerToSpawn then
 		local result = MouseRayCast({towerToSpawn})

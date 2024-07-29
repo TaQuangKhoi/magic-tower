@@ -1,5 +1,12 @@
+local map = workspace.City
+local base require(script.Base)
 local mob = require(script.Mob)
 local tower = require(script.Tower)
+
+base.Setup(map, 50)
+
+task.wait(2)
+base.updateHealth(25)
 
 local map = workspace.City
 local starterGui = game.StarterGui
